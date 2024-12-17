@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@ardium-ui/ui/themes/default/core.scss";
+@import "../node_modules/@ardium-ui/ui/themes/default/file-drop-area.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}

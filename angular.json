@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "db-to-csv": {
+    "symfonia-na-csv": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/db-to-csv",
+            "outputPath": "dist/symfonia-na-csv",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "db-to-csv:build:production"
+              "buildTarget": "symfonia-na-csv:build:production"
             },
             "development": {
-              "buildTarget": "db-to-csv:build:development"
+              "buildTarget": "symfonia-na-csv:build:development"
             }
           },
           "defaultConfiguration": "development"

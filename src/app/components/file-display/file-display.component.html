@@ -1,0 +1,13 @@
+<div class="static-icon">
+  <ard-icon>description</ard-icon>
+</div>
+<div class="file-info">
+  <strong>{{ file().name }}.csv</strong>
+  <div>
+    {{ file().size | filesize }} •
+    {{ file().length | plural : ["rekord", "rekordy", "rekordów"] }}
+  </div>
+</div>
+<button class="download-btn">
+  <ard-icon>download</ard-icon>
+</button>

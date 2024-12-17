@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.file-area {
+  height: 20rem;
+  display: grid;
+  place-items: center;
+}
+.download-area {
+  width: 80ch;
+  display: flex;
+  flex-direction: column;
+}
+.helper {
+  padding-bottom: 0.25rem;
+}
+.center {
+  text-align: center;
+  margin-left: -4rem;
+}

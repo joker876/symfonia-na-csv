@@ -1,0 +1,5 @@
+aktywny,dataod,long,nazwa,opis,stawka,subtyp,vatrr,wartosc
+1,2011-01-01,97700,23%,Stawka 23%,23.00,8,0,0.2300
+1,,100001,0%,Stawka zerowa,0.00,1,0,0.0000
+1,2011-01-01,99200,8%,Stawka 8%,8.00,9,0,0.0800
+1,,100004,NP,Nie podlega,0.00,253,0,0.0000
