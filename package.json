@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d dist/symfonia-na-csv/browser"
+    "deploy": "pnpm build && gh-pages -d dist/symfonia-na-csv/browser"
   },
   "private": true,
   "dependencies": {
